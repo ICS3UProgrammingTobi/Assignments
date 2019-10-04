@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace FallingObjectTobi
 {
-    static class Program
+    static class FallingObjects
     {
         /// <summary>
         /// The main entry point for the application.
@@ -16,7 +16,7 @@ namespace FallingObjectTobi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FallingObjectForm());
         }
     }
 }

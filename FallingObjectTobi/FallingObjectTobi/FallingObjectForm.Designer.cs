@@ -1,6 +1,6 @@
 ﻿namespace FallingObjectTobi
 {
-    partial class Form1
+    partial class FallingObjectForm
     {
         /// <summary>
         /// Required designer variable.

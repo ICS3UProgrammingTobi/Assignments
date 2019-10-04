@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FallingObjectTobi
 {
-    public partial class Form1 : Form
+    public partial class FallingObjectForm : Form
     {
-        public Form1()
+        public FallingObjectForm()
         {
             InitializeComponent();
         }
