@@ -1,6 +1,6 @@
 ﻿namespace FallingObjectTobi
 {
-    partial class FallingObjectForm
+    partial class frmFallingObject
     {
         /// <summary>
         /// Required designer variable.
@@ -28,35 +28,84 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btnCalculate = new System.Windows.Forms.Button();
+            this.txtSecondes = new System.Windows.Forms.TextBox();
+            this.lblTime = new System.Windows.Forms.Label();
+            this.lblHeightOfObject = new System.Windows.Forms.Label();
+            this.lblAnswer = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // btnCalculate
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Ontario (13%)",
-            "Quebec (15%)"});
-            this.comboBox1.Location = new System.Drawing.Point(478, 136);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 0;
+            this.btnCalculate.Location = new System.Drawing.Point(248, 113);
+            this.btnCalculate.Name = "btnCalculate";
+            this.btnCalculate.Size = new System.Drawing.Size(80, 30);
+            this.btnCalculate.TabIndex = 0;
+            this.btnCalculate.Text = "Calculate";
+            this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
-            // FallingObjectForm
+            // txtSecondes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.txtSecondes.Location = new System.Drawing.Point(521, 63);
+            this.txtSecondes.Name = "txtSecondes";
+            this.txtSecondes.Size = new System.Drawing.Size(100, 22);
+            this.txtSecondes.TabIndex = 2;
+            // 
+            // lblTime
+            // 
+            this.lblTime.AutoSize = true;
+            this.lblTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTime.Location = new System.Drawing.Point(2, 65);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(502, 20);
+            this.lblTime.TabIndex = 3;
+            this.lblTime.Text = "Enter the time (in secondes) since you released the object";
+            // 
+            // lblHeightOfObject
+            // 
+            this.lblHeightOfObject.AutoSize = true;
+            this.lblHeightOfObject.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeightOfObject.Location = new System.Drawing.Point(2, 186);
+            this.lblHeightOfObject.Name = "lblHeightOfObject";
+            this.lblHeightOfObject.Size = new System.Drawing.Size(385, 20);
+            this.lblHeightOfObject.TabIndex = 4;
+            this.lblHeightOfObject.Text = "The height of the object above the ground is:";
+            // 
+            // lblAnswer
+            // 
+            this.lblAnswer.AutoSize = true;
+            this.lblAnswer.Location = new System.Drawing.Point(518, 186);
+            this.lblAnswer.Name = "lblAnswer";
+            this.lblAnswer.Size = new System.Drawing.Size(0, 17);
+            this.lblAnswer.TabIndex = 5;
+            // 
+            // frmFallingObject
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.comboBox1);
-            this.Name = "FallingObjectForm";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(647, 300);
+            this.Controls.Add(this.lblAnswer);
+            this.Controls.Add(this.lblHeightOfObject);
+            this.Controls.Add(this.lblTime);
+            this.Controls.Add(this.txtSecondes);
+            this.Controls.Add(this.btnCalculate);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "frmFallingObject";
+            this.Text = "Falling Object Tobi";
+            this.Load += new System.EventHandler(this.frmFallingObject_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button btnCalculate;
+        private System.Windows.Forms.TextBox txtSecondes;
+        private System.Windows.Forms.Label lblTime;
+        private System.Windows.Forms.Label lblHeightOfObject;
+        private System.Windows.Forms.Label lblAnswer;
     }
 }
 

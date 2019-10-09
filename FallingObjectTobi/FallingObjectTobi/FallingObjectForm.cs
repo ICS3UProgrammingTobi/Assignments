@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace FallingObjectTobi
 {
-    public partial class FallingObjectForm : Form
+    public partial class frmFallingObject : Form
     {
-        public FallingObjectForm()
+        public frmFallingObject()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmFallingObject_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCalculate_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
