@@ -8,3 +8,9 @@ N:\Classes\Sem1-Fall2019\ICS3U Programming\ATobi (s467316)\Assignments\FallingOb
 N:\Classes\Sem1-Fall2019\ICS3U Programming\ATobi (s467316)\Assignments\FallingObjectTobi\FallingObjectTobi\obj\Debug\FallingObjectTobi.csproj.CoreCompileInputs.cache
 N:\Classes\Sem1-Fall2019\ICS3U Programming\ATobi (s467316)\Assignments\FallingObjectTobi\FallingObjectTobi\obj\Debug\FallingObjectTobi.exe
 N:\Classes\Sem1-Fall2019\ICS3U Programming\ATobi (s467316)\Assignments\FallingObjectTobi\FallingObjectTobi\obj\Debug\FallingObjectTobi.pdb
+C:\Users\Tobi\Documents\GitHub\ICS3U Programming\Assignments\FallingObjectTobi\FallingObjectTobi\obj\Debug\FallingObjectTobi.csprojAssemblyReference.cache
+C:\Users\Tobi\Documents\GitHub\ICS3U Programming\Assignments\FallingObjectTobi\FallingObjectTobi\obj\Debug\FallingObjectTobi.frmFallingObject.resources
+C:\Users\Tobi\Documents\GitHub\ICS3U Programming\Assignments\FallingObjectTobi\FallingObjectTobi\obj\Debug\FallingObjectTobi.Properties.Resources.resources
+C:\Users\Tobi\Documents\GitHub\ICS3U Programming\Assignments\FallingObjectTobi\FallingObjectTobi\obj\Debug\FallingObjectTobi.csproj.GenerateResource.cache
+C:\Users\Tobi\Documents\GitHub\ICS3U Programming\Assignments\FallingObjectTobi\FallingObjectTobi\obj\Debug\FallingObjectTobi.exe
+C:\Users\Tobi\Documents\GitHub\ICS3U Programming\Assignments\FallingObjectTobi\FallingObjectTobi\obj\Debug\FallingObjectTobi.pdb

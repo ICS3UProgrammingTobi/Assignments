@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnCalculate = new System.Windows.Forms.Button();
-            this.txtSecondes = new System.Windows.Forms.TextBox();
+            this.txtTime = new System.Windows.Forms.TextBox();
             this.lblTime = new System.Windows.Forms.Label();
             this.lblHeightOfObject = new System.Windows.Forms.Label();
             this.lblAnswer = new System.Windows.Forms.Label();
@@ -45,12 +45,12 @@
             this.btnCalculate.UseVisualStyleBackColor = true;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
-            // txtSecondes
+            // txtTime
             // 
-            this.txtSecondes.Location = new System.Drawing.Point(521, 63);
-            this.txtSecondes.Name = "txtSecondes";
-            this.txtSecondes.Size = new System.Drawing.Size(100, 22);
-            this.txtSecondes.TabIndex = 2;
+            this.txtTime.Location = new System.Drawing.Point(521, 63);
+            this.txtTime.Name = "txtTime";
+            this.txtTime.Size = new System.Drawing.Size(100, 22);
+            this.txtTime.TabIndex = 2;
             // 
             // lblTime
             // 
@@ -88,9 +88,9 @@
             this.Controls.Add(this.lblAnswer);
             this.Controls.Add(this.lblHeightOfObject);
             this.Controls.Add(this.lblTime);
-            this.Controls.Add(this.txtSecondes);
+            this.Controls.Add(this.txtTime);
             this.Controls.Add(this.btnCalculate);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmFallingObject";
             this.Text = "Falling Object Tobi";
             this.Load += new System.EventHandler(this.frmFallingObject_Load);
@@ -102,7 +102,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnCalculate;
-        private System.Windows.Forms.TextBox txtSecondes;
+        private System.Windows.Forms.TextBox txtTime;
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Label lblHeightOfObject;
         private System.Windows.Forms.Label lblAnswer;
