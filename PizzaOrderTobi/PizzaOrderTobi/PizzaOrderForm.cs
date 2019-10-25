@@ -27,6 +27,7 @@ namespace PizzaOrderTobi
         const double TWO_TOPPINGS = 1.35;
         const double THREE_TOPPINGS = 2.15;
         const double FOUR_TOPPINGS = 2.75;
+
         public frmPizzaOrder()
         {
             InitializeComponent();
@@ -43,6 +44,8 @@ namespace PizzaOrderTobi
 
         private void BtnCalculate_Click(object sender, EventArgs e)
         {
+
+
             //show the labels
             this.lblSubtotalAnswer.Show();
             this.lblHstAnswer.Show();

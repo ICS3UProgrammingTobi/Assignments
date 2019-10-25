@@ -51,7 +51,7 @@ namespace FallingObjectTobiV2
             lblAnswer.Text = Convert.ToString(answer) + "m";
 
             //Put it already hit the ground after it has hit the ground
-            if (time > Math.Sqrt((100/9.81)))
+            if (time > Math.Sqrt((100/(9.81*0.5))))
             {
                 lblAnswer.Text = "It already hit the ground!";
 
