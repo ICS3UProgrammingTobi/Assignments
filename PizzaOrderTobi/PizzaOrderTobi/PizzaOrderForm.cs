@@ -44,13 +44,55 @@ namespace PizzaOrderTobi
 
         private void BtnCalculate_Click(object sender, EventArgs e)
         {
+            // declare the variables
+            double size, toppings,subtotal, Tax, total;
+            size =Convert.ToInt32(nudSize.Value);
+            toppings = Convert.ToInt32(nudSize.Value);
 
 
-            //show the labels
+            //show the label
             this.lblSubtotalAnswer.Show();
             this.lblHstAnswer.Show();
             this.lblTotalAnswer.Show();
 
+            //User choice of pizza size
+            if (nudSize.Value==1)
+            {
+                size = LARGE_PIZZA;
+            }
+            else if (nudSize.Value==2)
+            {
+                size = EXTRALARGE_PIZZA;
+            }
+
+            // User choice of toppings
+            if (nudToppings.Value == 1)
+            {
+                toppings = ONE_TOPPING;
+            }
+            else if (nudToppings.Value == 2)
+            {
+                toppings = TWO_TOPPINGS;
+            }
+            else if (nudToppings.Value == 3)
+            {
+                toppings = THREE_TOPPINGS;
+            }
+            else if (nudToppings.Value==4)
+            {
+                toppings = FOUR_TOPPINGS;
+            }
+
+            // Calculate 
+            subtotal = size + toppings;
+            lblSubtotalAnswer.Text = String.Format("${0:0.00}", subtotal);
+            //Calculate tax
+            Tax = HST * subtotal;
+            lblHstAnswer.Text = String.Format("${0:0.00}", Tax);
+            // Calculate and display the final total
+            total = Tax + subtotal;
+
+            lblTotalAnswer.Text = String.Format("${0:0.00}", total);
         }
     }
 }

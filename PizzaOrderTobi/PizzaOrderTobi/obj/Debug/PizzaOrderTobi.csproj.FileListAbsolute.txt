@@ -1,0 +1,9 @@
+C:\Users\Tobi\Documents\GitHub\ICS3U Programming\Assignments\PizzaOrderTobi\PizzaOrderTobi\bin\Debug\PizzaOrderTobi.exe.config
+C:\Users\Tobi\Documents\GitHub\ICS3U Programming\Assignments\PizzaOrderTobi\PizzaOrderTobi\bin\Debug\PizzaOrderTobi.exe
+C:\Users\Tobi\Documents\GitHub\ICS3U Programming\Assignments\PizzaOrderTobi\PizzaOrderTobi\bin\Debug\PizzaOrderTobi.pdb
+C:\Users\Tobi\Documents\GitHub\ICS3U Programming\Assignments\PizzaOrderTobi\PizzaOrderTobi\obj\Debug\PizzaOrderTobi.csprojAssemblyReference.cache
+C:\Users\Tobi\Documents\GitHub\ICS3U Programming\Assignments\PizzaOrderTobi\PizzaOrderTobi\obj\Debug\PizzaOrderTobi.frmPizzaOrder.resources
+C:\Users\Tobi\Documents\GitHub\ICS3U Programming\Assignments\PizzaOrderTobi\PizzaOrderTobi\obj\Debug\PizzaOrderTobi.Properties.Resources.resources
+C:\Users\Tobi\Documents\GitHub\ICS3U Programming\Assignments\PizzaOrderTobi\PizzaOrderTobi\obj\Debug\PizzaOrderTobi.csproj.GenerateResource.cache
+C:\Users\Tobi\Documents\GitHub\ICS3U Programming\Assignments\PizzaOrderTobi\PizzaOrderTobi\obj\Debug\PizzaOrderTobi.exe
+C:\Users\Tobi\Documents\GitHub\ICS3U Programming\Assignments\PizzaOrderTobi\PizzaOrderTobi\obj\Debug\PizzaOrderTobi.pdb
