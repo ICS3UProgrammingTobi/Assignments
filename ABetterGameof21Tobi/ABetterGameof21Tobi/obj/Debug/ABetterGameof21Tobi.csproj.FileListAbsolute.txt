@@ -1,0 +1,10 @@
+N:\Classes\Sem1-Fall2019\ICS3U Programming\ATobi (s467316)\Assignments\ABetterGameof21Tobi\ABetterGameof21Tobi\bin\Debug\ABetterGameof21Tobi.exe.config
+N:\Classes\Sem1-Fall2019\ICS3U Programming\ATobi (s467316)\Assignments\ABetterGameof21Tobi\ABetterGameof21Tobi\bin\Debug\ABetterGameof21Tobi.exe
+N:\Classes\Sem1-Fall2019\ICS3U Programming\ATobi (s467316)\Assignments\ABetterGameof21Tobi\ABetterGameof21Tobi\bin\Debug\ABetterGameof21Tobi.pdb
+N:\Classes\Sem1-Fall2019\ICS3U Programming\ATobi (s467316)\Assignments\ABetterGameof21Tobi\ABetterGameof21Tobi\obj\Debug\ABetterGameof21Tobi.csprojAssemblyReference.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\ATobi (s467316)\Assignments\ABetterGameof21Tobi\ABetterGameof21Tobi\obj\Debug\ABetterGameof21Tobi.frmABetterGameof21.resources
+N:\Classes\Sem1-Fall2019\ICS3U Programming\ATobi (s467316)\Assignments\ABetterGameof21Tobi\ABetterGameof21Tobi\obj\Debug\ABetterGameof21Tobi.Properties.Resources.resources
+N:\Classes\Sem1-Fall2019\ICS3U Programming\ATobi (s467316)\Assignments\ABetterGameof21Tobi\ABetterGameof21Tobi\obj\Debug\ABetterGameof21Tobi.csproj.GenerateResource.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\ATobi (s467316)\Assignments\ABetterGameof21Tobi\ABetterGameof21Tobi\obj\Debug\ABetterGameof21Tobi.csproj.CoreCompileInputs.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\ATobi (s467316)\Assignments\ABetterGameof21Tobi\ABetterGameof21Tobi\obj\Debug\ABetterGameof21Tobi.exe
+N:\Classes\Sem1-Fall2019\ICS3U Programming\ATobi (s467316)\Assignments\ABetterGameof21Tobi\ABetterGameof21Tobi\obj\Debug\ABetterGameof21Tobi.pdb
